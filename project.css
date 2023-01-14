@@ -1,0 +1,113 @@
+body{ 
+    display: block;
+    background: rgb(0, 0, 0);
+}
+.navbar{
+    font-family: Lucida ;
+}
+.navbar .navbar-nav {
+    margin-left: 750px;
+}
+.border{
+    /* border-radius: 10px 8px outset rgb(255, 0, 0); */
+}
+.uppercase {
+    text-transform: uppercase;
+}
+.large {
+    font-size: x-large;
+}
+.menu-content {
+    display: flex;
+    flex-direction: column;
+}
+.menu-content .menu-hd{
+    color: aliceblue;
+    background-color: rgb(95, 8, 8);
+    font-size: xx-large;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 7px;
+    padding-right: 7px;
+    border-radius: 5px;
+    border: outset rgb(188, 188, 188);
+    /* display: inline-block; */
+    text-align: center;
+    /* margin-left: 600px;
+    margin-right: 600px; */
+    margin-top: 50px;
+    margin-bottom: 15px;
+}
+.menu-content .itemsborder {
+    border: 7px 5px rgb(200, 200, 200); 
+    border-style: ridge;
+    /* margin-left: 200px;
+    margin-right: 200px; */
+}
+.menu-content .menu-items {
+    color: aliceblue;
+    font-family: Times;
+    background-color: rgb(85, 85, 85);
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+/* .flex{
+    display: flex;
+    flex-wrap: wrap;
+} */
+.navflex{
+    display: flex;
+    flex-wrap: wrap;
+    max-height: 80px;  
+}
+.form-t{
+    text-align: center;
+    color: aliceblue;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    border: 15px 10px;
+    border-radius: 10px outset rgb(207, 207, 207);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    background: linear-gradient(black , rgb(75, 75, 75) , rgb(127, 127, 127));
+
+}
+.form-hd{
+    text-align: center;
+    color: aliceblue;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: aliceblue;
+    color: black;
+    font-family: initial;
+    border-radius: 50px 50px black;
+    
+}
+.form-items{
+    color: aliceblue;
+    font-family: Times;
+    border: solid white;
+    border-radius: 50px 50px black;
+}
+.m{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    /* border-radius: 50px 50px black; */
+}
+.foot{
+    text-align: center;
+    font-style: italic;
+    color: aliceblue;
+}
+.v{
+    border-radius: 20px;
+    border-color: rgb(87, 5, 163);
+    width: 160vh;
+    height: 290px;
+    border: 8px solid rgb(68, 33, 33);
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
